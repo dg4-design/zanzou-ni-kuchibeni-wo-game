@@ -1,0 +1,35 @@
+# OSが生成するファイル
+.DS_Store
+Thumbs.db
+
+# ビルド出力
+/build/
+/dist/
+
+# 依存関係
+/node_modules/
+/vendor/
+
+# ログファイル
+*.log
+
+# 環境設定ファイル
+.env
+.env.local
+
+# キャッシュファイル
+.cache/
+
+# バイナリファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# バックアップファイル
+*.bak
+*.backup
+
+# その他
+*.tmp
+*.temp
