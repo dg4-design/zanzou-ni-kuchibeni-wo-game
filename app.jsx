@@ -59,7 +59,7 @@ const Hiragana = ({ gameTime, onGameEnd, onReset }) => {
   const [remainingTime, setRemainingTime] = React.useState(gameTime);
   const [lastTimestamp, setLastTimestamp] = React.useState(null);
   const [pausedTime, setPausedTime] = React.useState(0);
-  const [audio] = React.useState(new Audio("/alert.mp3"));
+  const [audio] = React.useState(new Audio("alert.mp3"));
   const [currentRoundTime, setCurrentRoundTime] = React.useState(gameTime);
 
   React.useEffect(() => {
